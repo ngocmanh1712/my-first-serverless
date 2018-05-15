@@ -1,0 +1,5 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - serverless deploy --stage cicd | tee deploy.out 
